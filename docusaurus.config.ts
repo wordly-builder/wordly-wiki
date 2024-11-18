@@ -72,7 +72,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/doc', label: 'Documentation', position: 'left'},
+        //{to: '/docs', label: 'Documentation', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/wordly-builder/wordly',
