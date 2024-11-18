@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Wordly Wiki',
+  title: 'Wordly',
   tagline: 'Create you own world',
   favicon: 'img/logo.png',
 
@@ -60,7 +60,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/logo_no_slogan.svg',
     navbar: {
-      title: 'Wordly Wiki',
+      title: 'Wordly',
       logo: {
         alt: 'Wordly logo',
         src: 'img/logo.png',
