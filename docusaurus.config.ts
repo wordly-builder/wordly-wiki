@@ -13,7 +13,7 @@ const config: Config = {
   url: 'https://wiki.wordly-builder.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/wordly-wiki/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
