@@ -1,9 +1,9 @@
 pebloop:
   name: Pebloop
   title: Founder
-  url: https://github.com/pebloop
+  url: https://pebloop.dev
   image_url: https://github.com/pebloop.png
-  page: true
+  page: false
   socials:
-    bluesky: pebloop.md
+    bluesky: https://bsky.app/pebloop.dev
     github: pebloop

@@ -146,7 +146,7 @@ function Collaborate() {
                 <div className="text--center">
                     <Heading as="h2">Collaborate with the community</Heading>
                     <p>
-                        Wordly is an open-source project. You can contribute to the project on GitHub.
+                        Wordly is an open-source project under the MIT license. You can contribute to the project on GitHub.
                     </p>
                     <Link
                         className="button button--secondary button--lg"
