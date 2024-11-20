@@ -37,6 +37,10 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          path: 'docs/user',
+          routeBasePath: 'user',
+          lastVersion: 'current',
+          onlyIncludeVersions: ['current'],
         },
         blog: {
           showReadingTime: true,
@@ -56,6 +60,18 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+        '@docusaurus/plugin-content-docs',
+      {
+        id: 'technical',
+        path: 'docs/technical',
+        routeBasePath: 'technical',
+        sidebarPath: './sidebarsTechnical.ts',
+      }
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/logo_no_slogan.svg',
@@ -67,12 +83,21 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: 'user/get-started/intro',
           position: 'left',
-          label: 'Contribute',
+          label: 'Get Started',
         },
-        //{to: '/docs', label: 'Documentation', position: 'left'},
+        {
+          to: 'user/intro',
+          position: 'left',
+          label: 'Documentation',
+        },
+        {
+            to: '/technical/intro',
+            position: 'left',
+            label: 'Contribute',
+        },
+        //{to: '/docs-user', label: 'Documentation', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/wordly-builder/wordly',
@@ -89,11 +114,11 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs-user/intro',
             },
             {
                 label: 'Documentation',
-                to: '/docs/intro',
+                to: '/docs-user/intro',
             }
           ],
         },
